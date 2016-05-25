@@ -1,0 +1,4 @@
+.inline-BootstrapColumn .form-row .field-box:not(:first-child) label {
+  text-align: right;
+  width: 100px;
+}

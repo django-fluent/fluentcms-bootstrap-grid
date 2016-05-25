@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-25 21:47+0200\n"
+"PO-Revision-Date: 2016-05-25 21:45+0100\n"
+"Last-Translator: Diederik van der Boor <vdboor@edoburu.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: appsettings.py:8
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: appsettings.py:9
+msgid "Tablet"
+msgstr "Tablet"
+
+#: appsettings.py:10
+msgid "Desktop"
+msgstr "Desktop"
+
+#: appsettings.py:11
+msgid "Large Display"
+msgstr "Groot scherm"
+
+#: content_plugins.py:47
+msgctxt "bootstrap-grid"
+msgid "Offset"
+msgstr "Inspring"
+
+#: content_plugins.py:48
+msgctxt "bootstrap-grid"
+msgid "Push"
+msgstr "Duw"
+
+#: models.py:15
+msgid "Bootstrap Row"
+msgstr "Bootstrap Rij"
+
+#: models.py:16
+msgid "Bootstrap Rows"
+msgstr "Bootstral Rijen"
+
+#: models.py:46
+msgid "Bootstrap Column"
+msgstr "Bootstrap Kolom"
+
+#: models.py:47
+msgid "Bootstrap Columns"
+msgstr "Bootstrap Kolommen"
