@@ -5,7 +5,9 @@ from fluent_contents.extensions import ContainerPlugin, plugin_pool, ContentItem
 from . import appsettings
 from .models import BootstrapRow, BootstrapColumn
 
+
 GRID_COLUMNS = appsettings.FLUENTCMS_BOOTSTRAP_GRID_COLUMNS
+
 
 def _get_size_choices():
     choices = [('', '----')]
@@ -29,6 +31,7 @@ class BootstrapRowPlugin(ContainerPlugin):
     """
     model = BootstrapRow
     render_template = 'fluentcms_bootstrap_grid/row.html'
+    empty_children_message = _("Add a new column here.")
 
 
 class BootstrapColumnForm(ContentItemForm):
