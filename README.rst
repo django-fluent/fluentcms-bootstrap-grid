@@ -5,8 +5,6 @@ fluentcms-bootstrap-grid
     :target: http://travis-ci.org/edoburu/fluentcms-bootstrap-grid
 .. image:: https://img.shields.io/pypi/v/fluentcms-bootstrap-grid.svg
     :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
-.. image:: https://img.shields.io/pypi/dm/fluentcms-bootstrap-grid.svg
-    :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
 .. image:: https://img.shields.io/badge/wheel-yes-green.svg
     :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
 .. image:: https://img.shields.io/pypi/l/fluentcms-bootstrap-grid.svg
