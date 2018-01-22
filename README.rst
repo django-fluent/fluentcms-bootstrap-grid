@@ -1,16 +1,16 @@
 fluentcms-bootstrap-grid
 ========================
 
-.. image:: https://img.shields.io/travis/edoburu/fluentcms-bootstrap-grid/master.svg?branch=master
-    :target: http://travis-ci.org/edoburu/fluentcms-bootstrap-grid
+.. image:: https://img.shields.io/travis/django-fluent/fluentcms-bootstrap-grid/master.svg?branch=master
+    :target: http://travis-ci.org/django-fluent/fluentcms-bootstrap-grid
 .. image:: https://img.shields.io/pypi/v/fluentcms-bootstrap-grid.svg
     :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
 .. image:: https://img.shields.io/badge/wheel-yes-green.svg
     :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
 .. image:: https://img.shields.io/pypi/l/fluentcms-bootstrap-grid.svg
     :target: https://pypi.python.org/pypi/fluentcms-bootstrap-grid/
-.. image:: https://img.shields.io/codecov/c/github/edoburu/fluentcms-bootstrap-grid/master.svg
-    :target: https://codecov.io/github/edoburu/fluentcms-bootstrap-grid?branch=master
+.. image:: https://img.shields.io/codecov/c/github/django-fluent/fluentcms-bootstrap-grid/master.svg
+    :target: https://codecov.io/github/django-fluent/fluentcms-bootstrap-grid?branch=master
 
 Displaying a Bootstrap 3 grid_ in a page.
 
@@ -73,5 +73,5 @@ Contributing
 If you like this module, forked it, or would like to improve it, please let us know!
 Pull requests are welcome too. :-)
 
-.. _django-fluent-contents: https://github.com/edoburu/django-fluent-contents
+.. _django-fluent-contents: https://github.com/django-fluent/django-fluent-contents
 .. _grid: http://getbootstrap.com/css/#grid
