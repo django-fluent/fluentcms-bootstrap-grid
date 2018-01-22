@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BootstrapColumn',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('col_xs', models.PositiveSmallIntegerField(null=True, verbose_name=b'col-xs-', blank=True)),
                 ('col_sm', models.PositiveSmallIntegerField(null=True, verbose_name=b'col-sm-', blank=True)),
                 ('col_md', models.PositiveSmallIntegerField(null=True, verbose_name=b'col-md-', blank=True)),
@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BootstrapRow',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
             ],
             options={
                 'db_table': 'contentitem_fluentcms_bootstrap_grid_bootstraprow',
